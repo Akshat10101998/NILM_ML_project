@@ -1,4 +1,4 @@
-# NILM ML project
+# NILM
 
 Non-intrusive load monitoring(NILM) is the task of separating the total household energy measured into its constituent appliances. An open-source NILM toolkit called NILMTK was developed in 2014 to make NILM research reproducible and to ensure easy comparison of benchmark NILM algorithms. With the addition of more algorithms like Seq2Seq, Seq2Point models and improvements in both the experiment and model interface, an improved version of the toolkit NILM-contrib was released in 2019. However, the existing neural network models in the toolkit do not capture the model uncertainty. This project aims to add the uncertainty prediction component using MC dropout method to the existing state-of-the-art Seq2Point
 model and then to the Seq2Seq model.
